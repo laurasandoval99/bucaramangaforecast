@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.likns{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    /* text-decoration-line: underline; */
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 5px;
+    color: #000000;
+}
+
+.rowfld{
+    display: flex;
+    align-items: center; 
+}
+
+.Cindex{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    margin: 1%;
+    /* line-height: 77px; */
+
+
+}
+
+
+.parrafo{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    /* line-height: 39px; */
+    text-align: justify;
+    margin-inline: 5%;
+}
+
+.leftnavBar{
+
+    position: fixed;
+width: 236px;
+/* height: 940px; */
+height: 88%;
+
+/* height: 100%; */
+overflow-y: auto;
+/* overflow: visible; */
+left: 0px;
+top: 120px;
+
+background: #4F4A4A;
+}
+
+.CrimeCounterTitle{
+    /* Crime counter */
+
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+width: 180px;
+height: 43px;
+left: 28px;
+top: 60px;
+background: #333342;
+text-align: center;
+}
+
+.crimeCounter{
+
+    position: absolute;
+width: 180px;
+height: 130px;
+left: 28px;
+top: 103px;
+background: #ffffff;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.crimeCounterNumber{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+}
+
+.crimePosibilitiesNumber{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+color: crimson;
+}
+
+.leftnavBarInputFont{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.rc-slider-track{
+    background-color: #FBF336;
+}
+.rc-slider-handle{
+    background-color: #FBF336;
+}
+.TituloSecciones{
+    position: relative;
+    left: 250px;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+margin-top: 170px;
+/* line-height: 58px; */
+}
+
+.botonGoto{
+    width: 314px;
+    height: 104px;
+    border-width: 0px;
+    /* left: 796px;
+    top: 1951px;     */
+    background: #FBF336;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+
+
+    cursor: pointer;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.MembersPhothos{
+
+    /* position: absolute; */
+width: 225px;
+height: 225px;
+/* left: 75px;
+top: 3007px; */
+}
+
+.MemebersName{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+white-space: nowrap;
+}
+
+
+
+
+.ds4aimage{
+    margin-left: 30px;
+    margin-right: 90px;
+}
+
+.cardtamañomapa{
+    /* width: 95rem; */
+    width: 100%;
+}
+
+.graphtamañomapa{
+    width: 1450px;
+
+
+}
+@media (max-width: 1900px) {
+    .graphtamañomapa{
+        /* width: 1450px; */
+        /* width: fit-content; */
+        width: 1000px;
+    
+    
+    }
+}
+
+
+@media (max-width: 1366px) {
+    .Bloquedefotos {
+        flex-wrap: wrap;
+    }
+
+
+    .leftnavBar{
+
+        position: fixed;
+    width: 236px;
+    /* height: 940px; */
+    height: 84%;
+    
+    /* height: 100%; */
+    overflow-y: auto;
+    /* overflow: visible; */
+    left: 0px;
+    top: 120px;
+    
+    background: #4F4A4A;
+    }
+    .cardtamañomapa{
+        /* width: 50rem; */
+        width: 100%;
+    }
+
+    .graphtamañomapa{
+        width: 800px;
+    }
+
+
+
+
+  }

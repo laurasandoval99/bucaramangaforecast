@@ -1,0 +1,6 @@
+gunicorn==20.1.0
+dash==2.6.0
+dash-bootstrap-components==1.2.0
+matplotlib==3.5.2
+SQLAlchemy==1.4.39
+skforecast==0.4.3
